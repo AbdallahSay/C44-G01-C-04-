@@ -1,4 +1,6 @@
-﻿namespace Demo3
+﻿using System.Threading.Channels;
+
+namespace Demo3
 {
     internal class Program
     {
@@ -161,8 +163,68 @@
 
 
             #endregion
+            #region Switch C#8 (without alies name , switch expressions)
+            #region Without Alies
+            //object obj;
+            //obj = 10;
+            //switch (obj)
+            //{
+            //    case int when (int)obj >= 10:
+            //        Console.WriteLine("Integer");
+            //        break;
+            //    case string:
+            //        Console.WriteLine("String");
+            //        break;
+            //    default:
+            //        Console.WriteLine("Unknown");
+            //        break;
+            //}
+
+            #endregion
+            #region Switch Expression (Constant - discard)
+            //Console.WriteLine("Please enter your number[1 2 3]");
+            //int.TryParse(Console.ReadLine(), out int number);
+
+            //string result = number switch
+            //{
+            //    1 => "Option1",
+            //    2 => "Option2",
+            //    3 => "Option3",
+            //    _ => "Nuknown"
+
+            //};
+            //Console.WriteLine(result);
 
 
-        }
+            #endregion
+            #region Property Pattern
+            //Person person = new Person(){ Id = 10, Name = "Abdallah" ,Age = 21};
+            //string result = person switch
+            //{
+            //    { Id : 10 , Name: "Abdallah" , Age : 21 } => "Hello Abdallah",
+            //    _ => "UnKnown"
+            //};
+            //Console.WriteLine(result);
+            #endregion
+            #region Nullable and relational pattern
+            //int?
+            //int? number = null;
+            //string result = number switch
+            //{
+            //    null => "Null",
+            //    int x when x > 0 => "Positive",
+            //    int x when x < 0 => "Negative",
+            //    _ => "zero"
+            //};
+            //Console.WriteLine(result);
+        #endregion
+
+
+
+
+        #endregion
+
+
+    }
     }
 }
