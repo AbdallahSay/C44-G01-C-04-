@@ -217,14 +217,43 @@ namespace Demo3
             //    _ => "zero"
             //};
             //Console.WriteLine(result);
-        #endregion
+            #endregion
 
 
 
 
-        #endregion
+            #endregion
+            #region Switch C# 9.0
+            #region Relational Pattern 
+            //Console.WriteLine("Please Enter Your Number");
+            //int.TryParse(Console.ReadLine(), out int number);
+            //string Result = number switch
+            //{
+            //    < 10 => "number < 10",
+            //    > 20 => "Number > 20",
+            //    >= 10 and <= 20 => "Number between 10 and 20"
+            //};
+            //Console.WriteLine(Result);
+
+            #endregion
+            #region Enhanced Property pattern
+            //Person person = new Person() { Id = 10, Age = 40, Name = "Abdol" };
+            //string res = person switch
+            //{
+            //    {  Age: >10,Name: "Abdol"} => $"Hello {person.Name}",
+            //    {  Age: >20 and <= 30,Name: "Omar"} => $"Hello Omar",
+            //    {  Age: >40 and <= 50} => $"Hello {person.Name}",
 
 
-    }
+            //};
+            //Console.WriteLine(res);
+                
+
+            #endregion
+            #endregion
+
+
+
+        }
     }
 }
