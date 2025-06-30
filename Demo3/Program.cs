@@ -1,4 +1,5 @@
 ﻿using System.Threading.Channels;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Demo3
 {
@@ -286,6 +287,37 @@ namespace Demo3
             //        break;
             //    Console.WriteLine(i);//1
             //}
+
+
+            #endregion
+            #region While - do while
+
+            //bool isParsed;
+            //int number;
+            //do
+            //{
+            //    Console.WriteLine("PLease Enter an even number");
+            //    isParsed = int.TryParse(Console.ReadLine(), out number);
+
+
+            //} while (!isParsed || number % 2 == 1);
+            ///// لو هو رقم فردي ارجع نفذ do واخرج اول ما يجيلك رقم even 
+            //Console.WriteLine(number);
+            int number;
+            bool isParsed;
+            Console.WriteLine("PLease enter number");
+            isParsed = int.TryParse(Console.ReadLine(), out number);
+            if (isParsed)
+            {
+                Console.Clear();
+                while(number <= 10)
+                {
+                    Console.WriteLine(number);
+                    number++;
+                }
+            }
+
+            
 
 
             #endregion
