@@ -303,22 +303,52 @@ namespace Demo3
             //} while (!isParsed || number % 2 == 1);
             ///// لو هو رقم فردي ارجع نفذ do واخرج اول ما يجيلك رقم even 
             //Console.WriteLine(number);
-            int number;
-            bool isParsed;
-            Console.WriteLine("PLease enter number");
-            isParsed = int.TryParse(Console.ReadLine(), out number);
-            if (isParsed)
-            {
-                Console.Clear();
-                while(number <= 10)
-                {
-                    Console.WriteLine(number);
-                    number++;
-                }
-            }
+            //int number;
+            //bool isParsed;
+            //Console.WriteLine("PLease enter number");
+            //isParsed = int.TryParse(Console.ReadLine(), out number);
+            //if (isParsed)
+            //{
+            //    Console.Clear();
+            //    while(number <= 10)
+            //    {
+            //        Console.WriteLine(number);
+            //        number++;
+            //    }
+            //}
 
-            
 
+
+
+            #endregion
+            #region String
+            //string name = "Abdallah";
+            //string name2 = "Abdallah";//Unreachable 
+            //Console.WriteLine(name);
+            //Console.WriteLine(name.GetHashCode());
+            //Console.WriteLine();
+            //Console.WriteLine(name2);
+            //Console.WriteLine(name2.GetHashCode());
+            //name2 = "Abdol";
+            //Console.WriteLine();
+            //Console.WriteLine(name);
+            //Console.WriteLine(name.GetHashCode());
+            //Console.WriteLine();
+            //Console.WriteLine(name2);
+            //Console.WriteLine(name2.GetHashCode());
+            ///Methods
+            ///static (class member) 
+            ///non-static (object member)
+            //string name = "             abdol           ";
+            ////Console.WriteLine(name.Length);//Prorerty
+            ////Console.WriteLine(name.ToLower());
+            ////Console.WriteLine(name.ToUpper());
+            ////Console.WriteLine(name.Replace("abdol" ,"body"));
+            ////Console.WriteLine(name.Replace("a" ,"A"));
+            ////Console.WriteLine(name.Remove(0 ,5));
+            //Console.WriteLine(name.Trim());
+            //Console.WriteLine(name.TrimStart());
+            //Console.WriteLine(name.TrimEnd());
 
             #endregion
 
