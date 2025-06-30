@@ -247,9 +247,47 @@ namespace Demo3
 
             //};
             //Console.WriteLine(res);
-                
+
 
             #endregion
+            #endregion
+            #region For & Foreach
+            //for (int i = 1; i <= 10; i++)
+            //{
+            //    Console.WriteLine(i);
+            //}
+            //int[] numbers = [1, 2, 3, 4, 5, 6, 7, 8];
+            //for(int i = 0; i <= numbers.Length; i++)
+            //{
+            //    Console.WriteLine(numbers[i]);
+            //}
+            //foreach(int number in numbers)
+            //{
+            //    Console.WriteLine(number);
+            //    //Can't access specific element
+            // }
+            //Person[] persons = new Person[] { new Person { Id = 10, Age = 21, Name = "abdol" },
+            //new Person { Id = 20, Age = 21, Name = "mo" }};
+            //foreach (var person in persons)
+            //{
+            //    Console.WriteLine(person);
+            //}
+
+            ///// with break - continue
+            //for(int i = 1; i < 10; i++)
+            //{
+            //    if(i ==2)
+            //    continue;
+            //    Console.WriteLine(i);//13456789
+            //}
+            //for (int i = 1; i < 10; i++)
+            //{
+            //    if (i == 2)
+            //        break;
+            //    Console.WriteLine(i);//1
+            //}
+
+
             #endregion
 
 
