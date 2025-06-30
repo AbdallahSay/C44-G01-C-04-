@@ -97,14 +97,69 @@
 
             //}
 
-        #endregion
+            #endregion
             #region goto
-        //abdol:
-        //    Console.WriteLine("Hello abdol");
+            //abdol:
+            //    Console.WriteLine("Hello abdol");
 
-        //    Console.WriteLine("please enter num");
-        //    int.TryParse(Console.ReadLine(), out int num);
-        //    goto abdol;
+            //    Console.WriteLine("please enter num");
+            //    int.TryParse(Console.ReadLine(), out int num);
+            //    goto abdol;
+            #endregion
+            #region Switch(C#7  , Pattern Matching and When Keyword)
+            //object obj;
+            //obj = 3;
+
+            //switch (obj) {
+            //    case int x:
+            //        Console.WriteLine("Integer");
+            //        break;
+            //        case float x:
+            //        Console.WriteLine("Single");
+            //        break;
+            //        case double x:
+            //        Console.WriteLine("Double");
+            //            break;
+            //    default:
+            //        Console.WriteLine("UnKnown");
+            //        break;
+
+            //}
+            //switch (obj)
+            //{
+            //    case int x when x<=10 && x>= 3 :
+            //        Console.WriteLine("Integer");
+            //        break;
+            //    case float x:
+            //        Console.WriteLine("Single");
+            //        break;
+            //    case double x:
+            //        Console.WriteLine("Double");
+            //        break;
+            //    default:
+            //        Console.WriteLine("UnKnown");
+            //        break;
+
+            //}
+            //Object obj = new person() { Id = 2202110 , Age = 21, Name = "Abdallah" };
+            //switch (obj)
+            //{
+
+            //    case int input:
+            //        Console.WriteLine("int datatype");
+            //        break;
+            //    case string input:
+            //        Console.WriteLine("string data type");
+            //        break;
+            //    case person input when input.Id == 2202110:
+            //        Console.WriteLine("Person datatype");
+            //        break;
+            //}
+
+
+
+
+
             #endregion
 
 
