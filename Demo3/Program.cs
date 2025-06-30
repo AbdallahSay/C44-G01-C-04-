@@ -1,4 +1,6 @@
-﻿using System.Threading.Channels;
+﻿using System.Text;
+using System.Threading.Channels;
+using System.Xml.Linq;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Demo3
@@ -351,7 +353,55 @@ namespace Demo3
             //Console.WriteLine(name.TrimEnd());
 
             #endregion
+            #region StringBuilder
+            //StringBuilder name;
+            ////Allocate 4 byte in stack for reference
+            ////name = "abdol" invalid
+            ////name = new StringBuilder("Abdol");
+            ////Console.WriteLine(name);
+            ////Console.WriteLine(name.GetHashCode());
+            //////name += "Sayed"; //invalid
+            ////name.Append(" Sayed");
+            ////Console.WriteLine();
+            ////Console.WriteLine(name);
+            //Console.WriteLine(name.GetHashCode());
 
+            //StringBuilder name1 = new StringBuilder("Abdallah");
+            //StringBuilder name2 = new StringBuilder();
+            //name2.Append("Abdallah");
+            //Console.WriteLine(name1);
+            //Console.WriteLine(name1.GetHashCode());
+            //Console.WriteLine();
+            //Console.WriteLine(name2);
+            //Console.WriteLine(name2.GetHashCode()); 
+
+            //Console.WriteLine("Change name1");
+            //name1 = name2;
+            //Console.WriteLine();
+            //Console.WriteLine(name1);
+            //Console.WriteLine(name1.GetHashCode());
+            //Console.WriteLine();
+            //Console.WriteLine(name2);
+            //Console.WriteLine(name2.GetHashCode());
+            //Console.WriteLine();
+           
+            ///Methods
+            //StringBuilder msg = new StringBuilder();
+            //msg.AppendLine("Abdallah");
+            //msg.Append("Hello");
+            //Console.WriteLine(msg);
+            //msg.AppendFormat("Yourname is {0}", msg);
+            //Console.WriteLine(msg.GetHashCode());
+            //Console.WriteLine(msg.Clear());
+            //Console.WriteLine(msg.GetHashCode());
+            
+
+
+
+
+
+
+            #endregion
 
 
         }
