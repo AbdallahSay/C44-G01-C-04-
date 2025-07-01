@@ -451,8 +451,65 @@ namespace Demo3
             //}
 
             #endregion
+            #region 2D Array
+            //int[,] marks = new int[3, 5]
+            //{
+            //    {100 , 80 , 90, 100 , 100 },
+            //    {100 , 79 , 94 , 98 , 67 },
+            //    {90 , 100 , 94 , 98 , 89 }
 
 
-        }
+            //};
+            //for(int i = 0; i < marks.GetLength(0);i++)
+            //{
+            //    Console.WriteLine($"Please enter student number {i+1} info ");
+            //    for(int j =0; j < marks.GetLength(1);)
+            //    {
+            //        Console.WriteLine($"please enter mark subject number {j+1}");
+            //        bool isParsed = int.TryParse(Console.ReadLine(), out marks[0, 1]);
+            //        if(isParsed)
+            //        {
+            //            j++;
+            //        }
+
+            //    }
+            //}
+            //Console.Clear();
+            //for (int i = 0; i < marks.GetLength(0); i++)//Rows
+            //{
+            //    for (int j = 0; j < marks.GetLength(1);j++)
+            //    {
+            //        Console.Write(marks[i, j] + "  ");
+            //    }
+            //    Console.WriteLine();
+            //}
+
+        //Console.WriteLine(marks.Rank); // 2
+        //Console.WriteLine(marks.Length);//3*5 = 15
+        //for (int i = 0; i < 3; i++)
+        //{
+        //    for(int j =0; j< 5; j++)
+        //    {
+        //        Console.Write(Marks[i , j] + "  ");
+        //    }
+        //    Console.WriteLine();
+
+        //}
+        //for (int i = 0; i < 2; i++)//Rows
+        //{
+        //    for (int j = 0; j < 5; j++)
+        //    {
+        //        Console.Write(Marks[i , j]+ "  " );
+        //    }
+        //    Console.WriteLine();
+        //}
+        //foreach(int mark in Marks)
+        //{
+        //    Console.WriteLine(mark);
+        //}       //// مش احسن حاجه
+
+        #endregion
+
+    }
     }
 }
