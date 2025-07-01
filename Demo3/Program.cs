@@ -232,7 +232,28 @@ namespace Demo3
             //    Console.WriteLine("Invalid operator.");
             //}
             #endregion
+            #region 13-  Write a program to allow the user to enter a string and print the  REVERSE of it.
+
+            //Console.Write("Enter an integer: ");
+            // bool isParsed= int.TryParse(Console.ReadLine() , out int number);
+
+            //int reversedNumber = 0;
+            //if (isParsed) {
+            //    while (number != 0)
+            //    {
+            //        int digit = number % 10;
+            //        reversedNumber = reversedNumber * 10 + digit;
+            //        number /= 10;
+            //    }
+
+            //    Console.WriteLine("Reversed number: " + reversedNumber);
+            //}
+
         }
+            
+            #endregion
     }
-}
+    }
+
+
             
