@@ -1,4 +1,5 @@
-﻿using System.Reflection.Metadata;
+﻿using System.ComponentModel;
+using System.Reflection.Metadata;
 using System.Security.Cryptography;
 using System.Xml.Linq;
 using static System.Runtime.InteropServices.JavaScript.JSType;
@@ -97,6 +98,21 @@ namespace Demo3
 
 
             #endregion
+            #region 7 - Write a program that allows the user to insert an integer then print a multiplication table up to 12.
+            //int i= 0;
+            //Console.WriteLine("please enter number");
+            //bool isParsed = int.TryParse(Console.ReadLine(), out int number);
+            //Console.Clear();
+            //for (i = 1; i<= 12; i++)
+            //{
+            //    Console.WriteLine(number*i);
+
+            //}
+
+
+
+            #endregion
         }
     }
 }
+            
