@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel;
+using System.Numerics;
 using System.Reflection.Metadata;
 using System.Security.Cryptography;
 using System.Xml.Linq;
@@ -266,6 +267,38 @@ namespace Demo3
                 Console.WriteLine("Reversed number: " + reversedNumber);
             }
 
+
+
+            #endregion
+            #region 15- Write a program in C# Sharp to find prime numbers within a range of  numbers.
+            Console.Write("Enter starting number of range: ");
+            int start = int.Parse(Console.ReadLine());
+
+            Console.Write("Enter ending number of range: ");
+            int end = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Prime numbers between {0} and {1} are:", start, end);
+            for (number = start; number <= end; number++)
+            {
+                if (IsPrime(number))
+                {
+                    Console.Write(number + " ");
+                }
+            }
+        }
+
+        static bool IsPrime(int num)
+        {
+            if (num <= 1)
+                return false;
+
+            for (int i = 2; i <= Math.Sqrt(num); i++)
+            {
+                if (num % i == 0)
+                    return false;
+            }
+
+            return true;
 
 
             #endregion
