@@ -1,4 +1,5 @@
-﻿using System.ComponentModel;
+﻿using System;
+using System.ComponentModel;
 using System.Numerics;
 using System.Reflection.Metadata;
 using System.Security.Cryptography;
@@ -251,86 +252,107 @@ namespace Demo3
 
             #endregion
             #region 14- Write a program to allow the user to enter int and print the REVERSED  of it.
-            Console.Write("Enter an integer: ");
-            bool isParsed = int.TryParse(Console.ReadLine(), out int number);
+            //Console.Write("Enter an integer: ");
+            //bool isParsed = int.TryParse(Console.ReadLine(), out int number);
 
-            int reversedNumber = 0;
-            if (isParsed)
-            {
-                while (number != 0)
-                {
-                    int digit = number % 10;
-                    reversedNumber = reversedNumber * 10 + digit;
-                    number /= 10;
-                }
+            //int reversedNumber = 0;
+            //if (isParsed)
+            //{
+            //    while (number != 0)
+            //    {
+            //        int digit = number % 10;
+            //        reversedNumber = reversedNumber * 10 + digit;
+            //        number /= 10;
+            //    }
 
-                Console.WriteLine("Reversed number: " + reversedNumber);
-            }
+            //    Console.WriteLine("Reversed number: " + reversedNumber);
+            //}
 
 
 
             #endregion
             #region 15- Write a program in C# Sharp to find prime numbers within a range of  numbers.
-            Console.Write("Enter starting number of range: ");
-            int start = int.Parse(Console.ReadLine());
+        //    Console.Write("Enter starting number of range: ");
+        //    int start = int.Parse(Console.ReadLine());
 
-            Console.Write("Enter ending number of range: ");
-            int end = int.Parse(Console.ReadLine());
+        //    Console.Write("Enter ending number of range: ");
+        //    int end = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Prime numbers between {0} and {1} are:", start, end);
-            for (number = start; number <= end; number++)
-            {
-                if (IsPrime(number))
-                {
-                    Console.Write(number + " ");
-                }
-            }
-        }
+        //    Console.WriteLine("Prime numbers between {0} and {1} are:", start, end);
+        //    for (number = start; number <= end; number++)
+        //    {
+        //        if (IsPrime(number))
+        //        {
+        //            Console.Write(number + " ");
+        //        }
+        //    }
+        //}
 
-        static bool IsPrime(int num)
-        {
-            if (num <= 1)
-                return false;
+        //static bool IsPrime(int num)
+        //{
+        //    if (num <= 1)
+        //        return false;
 
-            for (int i = 2; i <= Math.Sqrt(num); i++)
-            {
-                if (num % i == 0)
-                    return false;
-            }
+        //    for (int i = 2; i <= Math.Sqrt(num); i++)
+        //    {
+        //        if (num % i == 0)
+        //            return false;
+        //    }
 
-            return true;
+        //    return true;
 
 
             #endregion
             #region 16 -. Write a program in C# Sharp to convert a decimal number into binary  without using an array. 
 
-            Console.Write("Enter a number to convert: ");
-            string input = Console.ReadLine();
+            //Console.Write("Enter a number to convert: ");
+            //string input = Console.ReadLine();
 
-            if (int.TryParse(input, out int number) && number >= 0)
-            {
-                string binary = "";
+            //if (int.TryParse(input, out int number) && number >= 0)
+            //{
+            //    string binary = "";
 
-                if (number == 0)
-                {
-                    binary = "0";
-                }
-                else
-                {
-                    while (number > 0)
-                    {
-                        int remainder = number % 2;
-                        binary = remainder + binary;
-                        number /= 2;
-                    }
-                }
+            //    if (number == 0)
+            //    {
+            //        binary = "0";
+            //    }
+            //    else
+            //    {
+            //        while (number > 0)
+            //        {
+            //            int remainder = number % 2;
+            //            binary = remainder + binary;
+            //            number /= 2;
+            //        }
+            //    }
 
-                Console.WriteLine("The Binary of the number is: " + binary);
-            }
+            //    Console.WriteLine("The Binary of the number is: " + binary);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Invalid input. Please enter a positive integer.");
+            //}
+            #endregion
+            #region 17- Create a program that asks the user to input three points (x1, y1), (x2, y2), and(x3, y3), and determines whether these points lie on a  single straight line.
+            Console.WriteLine("please enter point 1 x , y");
+            bool isParsedX1 = double.TryParse(Console.ReadLine(), out double x1);
+            bool isParsedY1 = double.TryParse(Console.ReadLine(), out double y1);
+            Console.WriteLine("please enter point 2 x , y");
+            bool isParsedX2 = double.TryParse(Console.ReadLine(), out double x2);
+            bool isParsedY2 = double.TryParse(Console.ReadLine(), out double y2);
+            Console.WriteLine("please enter point 1 x , y");
+            bool isParsedX3 = double.TryParse(Console.ReadLine(), out double x3);
+            bool isParsedY3 = double.TryParse(Console.ReadLine(), out double y3);
+            bool onSamePoint = (y2 - y1) * (x3 - x2) == (y3 - y2) * (x2 - x1);
+
+            if(onSamePoint)
+                Console.WriteLine("The points lie on a single straight line.");
             else
-            {
-                Console.WriteLine("Invalid input. Please enter a positive integer.");
-            }
+                Console.WriteLine("The points do NOT lie on the same straight line.");
+
+
+
+
             #endregion
 
         }
