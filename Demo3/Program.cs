@@ -1,6 +1,7 @@
 ﻿using System.Reflection.Metadata;
 using System.Security.Cryptography;
 using System.Xml.Linq;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Demo3
 {
@@ -72,7 +73,7 @@ namespace Demo3
             #region 5- Write a program that takes character from the user then if it is a vowel chars(a, e, I, o, u) then print(vowel) otherwise print(consonant). 
             //Console.WriteLine("Please enter Vowel Char");
             //bool isParsed = char.TryParse(Console.ReadLine().ToLower() , out char vowel );
-           
+
             //if (isParsed)
             //{
             //    if(vowel == 'a' || vowel == 'e' || vowel == 'i' || vowel == 'o' || vowel == 'u')
@@ -81,7 +82,17 @@ namespace Demo3
             //        Console.WriteLine("consonant");
             //}
 
-              
+
+
+
+
+            #endregion
+            #region 6- Write a program that allows the user to insert an integer then print   all numbers between 1 to that number.
+            //Console.WriteLine("please enter number");
+            //bool isParsed = int.TryParse(Console.ReadLine(), out int number);
+            //Console.Clear();
+            //for (int i = 1; i <= number; i++)
+            //    Console.WriteLine(i);
 
 
 
