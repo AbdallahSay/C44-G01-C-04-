@@ -1,4 +1,6 @@
-﻿namespace Demo3
+﻿using System.Xml.Linq;
+
+namespace Demo3
 {
     internal class Program
     {
@@ -30,6 +32,27 @@
             //    else
             //        Console.WriteLine("Number = 0");
             //}
+            #endregion
+            #region 3-- Write a program that takes 3 integers from the user then prints the max element and the min element.
+            //Console.WriteLine("please enter number1");
+            //bool isParsed1 = int.TryParse(Console.ReadLine(), out int number1);
+            //Console.WriteLine("please enter number2");
+            //bool isParsed2 = int.TryParse(Console.ReadLine(), out int number2);
+            //Console.WriteLine("please enter number3");
+            //bool isParsed3 = int.TryParse(Console.ReadLine(), out int number3);
+            //int max = number1;
+            //if (number2 > max) max = number2;
+            //if (number3 > max) max = number3;
+
+            //int min = number1;
+            //if (number2 < min) min = number2;
+            //if (number3 < min) min = number3;
+
+            //Console.WriteLine("Max element = " + max);
+            //Console.WriteLine("Min element = " + min);
+
+
+
             #endregion
         }
     }
