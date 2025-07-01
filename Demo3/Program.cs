@@ -159,32 +159,78 @@ namespace Demo3
             #endregion
             #region 11- Write a program to input the month number and print the number of days in that month.
 
-           // Console.Write("Enter month number (1-12): ");
-           //bool isParsed = int.TryParse(Console.ReadLine(), out int month);
+            // Console.Write("Enter month number (1-12): ");
+            //bool isParsed = int.TryParse(Console.ReadLine(), out int month);
 
-           // if (isParsed) {
-           //     if (month == 1 || month == 3 || month == 5 || month == 7 ||
-           //        month == 8 || month == 10 || month == 12)
-           //     {
-           //         Console.WriteLine("Days in Month: 31");
-           //     }
-           //     else if (month == 4 || month == 6 || month == 9 || month == 11)
-           //     {
-           //         Console.WriteLine("Days in Month: 30");
-           //     }
-           //     else if (month == 2)
-           //     {
-           //         Console.WriteLine("Days in Month: 28");
-           //     }
-           //     else
-           //     {
-           //         Console.WriteLine("Invalid month number.");
-           //     }
+            // if (isParsed) {
+            //     if (month == 1 || month == 3 || month == 5 || month == 7 ||
+            //        month == 8 || month == 10 || month == 12)
+            //     {
+            //         Console.WriteLine("Days in Month: 31");
+            //     }
+            //     else if (month == 4 || month == 6 || month == 9 || month == 11)
+            //     {
+            //         Console.WriteLine("Days in Month: 30");
+            //     }
+            //     else if (month == 2)
+            //     {
+            //         Console.WriteLine("Days in Month: 28");
+            //     }
+            //     else
+            //     {
+            //         Console.WriteLine("Invalid month number.");
+            //     }
 
-           // }
-           // else
-           //     Console.WriteLine("Invalid input");
+            // }
+            // else
+            //     Console.WriteLine("Invalid input");
 
+            #endregion
+            #region 12- Write a program to create a Simple Calculator. 
+            //Console.WriteLine("Simple Calculator:");
+
+            //Console.Write("Enter first number: ");
+            //double firstNumber = double.Parse(Console.ReadLine());
+
+            //Console.Write("Enter operator (+, -, *, /): ");
+            //char operation = char.Parse(Console.ReadLine());
+
+            //Console.Write("Enter second number: ");
+            //double secondNumber = double.Parse(Console.ReadLine());
+
+            //double result;
+
+            //if (operation == '+')
+            //{
+            //    result = firstNumber + secondNumber;
+            //    Console.WriteLine("Result = " + result);
+            //}
+            //else if (operation == '-')
+            //{
+            //    result = firstNumber - secondNumber;
+            //    Console.WriteLine("Result = " + result);
+            //}
+            //else if (operation == '*')
+            //{
+            //    result = firstNumber * secondNumber;
+            //    Console.WriteLine("Result = " + result);
+            //}
+            //else if (operation == '/')
+            //{
+            //    if (secondNumber != 0)
+            //    {
+            //        result = firstNumber / secondNumber;
+            //        Console.WriteLine("Result = " + result);
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Error: Cannot divide by zero.");
+            //    }
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Invalid operator.");
+            //}
             #endregion
         }
     }
