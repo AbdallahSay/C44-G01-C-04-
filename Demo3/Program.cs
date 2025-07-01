@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.Globalization;
+using System.Text;
 using System.Threading.Channels;
 using System.Xml.Linq;
 using static System.Runtime.InteropServices.JavaScript.JSType;
@@ -384,7 +385,7 @@ namespace Demo3
             //Console.WriteLine(name2);
             //Console.WriteLine(name2.GetHashCode());
             //Console.WriteLine();
-           
+
             ///Methods
             //StringBuilder msg = new StringBuilder();
             //msg.AppendLine("Abdallah");
@@ -394,12 +395,60 @@ namespace Demo3
             //Console.WriteLine(msg.GetHashCode());
             //Console.WriteLine(msg.Clear());
             //Console.WriteLine(msg.GetHashCode());
-            
 
 
 
 
 
+
+
+            #endregion
+            #region 1D Array
+            //Array arr = new Array();// invalid
+            //int[] numbers = new int[5];
+            //int[] numbers = [1, 2, 3, 4, 5];
+            //int[] numbers = { 1, 2, 3, 4, 5 };
+            //int[] numbers = new int[5];
+            //Array.Fill(numbers, 5);
+            //Console.WriteLine(numbers[0]);
+            //Console.WriteLine(numbers[1]);
+            //Console.WriteLine(numbers[2]);
+            //Console.WriteLine(numbers[3]);
+            //Console.WriteLine(numbers[4]);
+            //Array arr = Array.CreateInstance(typeof(int), 5);
+            //arr.SetValue(10, 0);
+            //arr.SetValue(20, 1);
+            //arr.SetValue(30, 2);
+            //arr.SetValue(40, 3);
+            //Console.WriteLine(arr.GetValue(3));
+
+            //int[] numbers = { 1, 2, 3, 4, 5, 6, 7, 8, };
+            //for (int i = 0; i < numbers.Length; i++)
+            //{
+            //    Console.WriteLine(numbers[i]);
+            //}
+
+            //for(int i = 0; i < numbers.Length;)
+            //{
+            //    Console.WriteLine($"please enter number in {i+1}");
+            //    bool isParsed = int.TryParse(Console.ReadLine(), out numbers[i]);
+            //        if (isParsed)
+            //    {
+            //        i++;
+            //    }
+
+            //}
+            //Console.Clear();
+            //for(int i = 0; i<numbers.Length; i++)
+            //{
+            //    Console.WriteLine(numbers[i]);
+            //}
+            //int[] numbers = new int[5];
+            //Array.Fill(numbers, 9);
+            //foreach(int number in numbers)
+            //{
+            //    Console.WriteLine(number);
+            //}
 
             #endregion
 
