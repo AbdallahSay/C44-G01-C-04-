@@ -250,24 +250,26 @@ namespace Demo3
 
             #endregion
             #region 14- Write a program to allow the user to enter int and print the REVERSED  of it.
-            //Console.Write("Enter an integer: ");
-            // bool isParsed= int.TryParse(Console.ReadLine() , out int number);
+            Console.Write("Enter an integer: ");
+            bool isParsed = int.TryParse(Console.ReadLine(), out int number);
 
-            //int reversedNumber = 0;
-            //if (isParsed) {
-            //    while (number != 0)
-            //    {
-            //        int digit = number % 10;
-            //        reversedNumber = reversedNumber * 10 + digit;
-            //        number /= 10;
-            //    }
+            int reversedNumber = 0;
+            if (isParsed)
+            {
+                while (number != 0)
+                {
+                    int digit = number % 10;
+                    reversedNumber = reversedNumber * 10 + digit;
+                    number /= 10;
+                }
 
-            //    Console.WriteLine("Reversed number: " + reversedNumber);
-            //}
+                Console.WriteLine("Reversed number: " + reversedNumber);
+            }
 
 
 
             #endregion
+
         }
     }
 }
