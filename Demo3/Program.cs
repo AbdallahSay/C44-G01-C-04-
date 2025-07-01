@@ -1,4 +1,5 @@
-﻿using System.Security.Cryptography;
+﻿using System.Reflection.Metadata;
+using System.Security.Cryptography;
 using System.Xml.Linq;
 
 namespace Demo3
@@ -65,6 +66,23 @@ namespace Demo3
             //    else
             //        Console.WriteLine("Odd");
             //}
+
+
+            #endregion
+            #region 5- Write a program that takes character from the user then if it is a vowel chars(a, e, I, o, u) then print(vowel) otherwise print(consonant). 
+            //Console.WriteLine("Please enter Vowel Char");
+            //bool isParsed = char.TryParse(Console.ReadLine().ToLower() , out char vowel );
+           
+            //if (isParsed)
+            //{
+            //    if(vowel == 'a' || vowel == 'e' || vowel == 'i' || vowel == 'o' || vowel == 'u')
+            //        Console.WriteLine("vowel");
+            //    else
+            //        Console.WriteLine("consonant");
+            //}
+
+              
+
 
 
             #endregion
