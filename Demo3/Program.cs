@@ -1,4 +1,5 @@
-﻿using System.Xml.Linq;
+﻿using System.Security.Cryptography;
+using System.Xml.Linq;
 
 namespace Demo3
 {
@@ -51,6 +52,19 @@ namespace Demo3
             //Console.WriteLine("Max element = " + max);
             //Console.WriteLine("Min element = " + min);
 
+
+
+            #endregion
+            #region -4 Write a program that allows the user to insert an integer number then check If a number is even or odd.
+            //Console.WriteLine("please enter number");
+            //bool isParsed = int.TryParse(Console.ReadLine(), out int number);
+            //if (isParsed)
+            //{
+            //    if (number % 2 == 0)
+            //        Console.WriteLine("Even");
+            //    else
+            //        Console.WriteLine("Odd");
+            //}
 
 
             #endregion
