@@ -122,9 +122,23 @@ namespace Demo3
             //            Console.WriteLine(i);
 
             //}
-           
 
 
+
+            #endregion
+            #region  9 - Write a program that takes two integers then prints the power.
+            //Console.WriteLine("please enter base");
+            //bool isParsed1 = int.TryParse(Console.ReadLine(), out int baseNum);
+            //Console.WriteLine("please enter exponent");
+            //bool isParsed2 = int.TryParse(Console.ReadLine(), out int exponent);
+            //Console.Clear();
+            //if (isParsed1 & isParsed2)
+            //{
+            //    Console.WriteLine(Math.Pow(baseNum, exponent));
+
+            //}
+            //else
+            //    Console.WriteLine("Invalid input");
             #endregion
         }
     }
