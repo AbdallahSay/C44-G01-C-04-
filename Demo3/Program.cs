@@ -140,6 +140,23 @@ namespace Demo3
             //else
             //    Console.WriteLine("Invalid input");
             #endregion
+            #region 10- Write a program to enter marks of five subjects and calculate total,  average and percentage.
+
+            //int[] marks = { 100, 50, 79, 80, 90 };
+            //double total = 0;
+            //for(int i = 0; i < marks.Length; i++)
+            //{
+            //    total += marks[i];
+               
+            //}
+            //Console.WriteLine($"total = {total}");
+            //double avg = total / marks.Length;
+            //Console.WriteLine($"average = {avg}");
+            //double Percentage = (total * 100) / 500;
+            //Console.WriteLine($"Persentage = {Percentage}%");
+
+
+            #endregion
         }
     }
 }
