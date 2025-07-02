@@ -487,6 +487,29 @@ namespace Demo3
 
 
             #endregion
+            #region 24- find the second largest element in an array.
+
+            //int[] arr = { 10, 7, 25, 3, 19, 25 };
+
+            //int max = int.MinValue;
+            //int secondMax = int.MinValue;
+
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    if (arr[i] > max)
+            //    {
+            //        secondMax = max;
+            //        max = arr[i];
+            //    }
+            //    else if (arr[i] > secondMax && arr[i] < max)
+            //    {
+            //        secondMax = arr[i];
+            //    }
+            //}
+
+            //Console.WriteLine("Second Largest = " + secondMax);
+
+            #endregion
         }
     }
 }
