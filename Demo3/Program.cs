@@ -393,10 +393,19 @@ namespace Demo3
             //        }
             //        Console.WriteLine();
             //    }
-                
+
             //}
             //else
             //    Console.WriteLine("Invalid integer number ");
+            #endregion
+            #region 20-find the sum of all elements of the  array.
+            //int[] arr = [4, 5, 6, 7, 8];
+            //double sumOfArr = 0;
+            //for (int i = 0; i < arr.Length; i++)
+            //    sumOfArr += arr[i];
+            //Console.WriteLine($"Sum Of Array = {sumOfArr}");
+       
+
             #endregion
 
         }
