@@ -409,27 +409,62 @@ namespace Demo3
 
             #endregion
             #region 21- merge two arrays of the same size sorted in ascending order.
-        //    int[] arrOne = { 1, 10, 4, 2 };
-        //    int[] arrTwo = { 3, 7, 5, 6 };
-        //    int[] marged = new int[arrOne.Length + arrTwo.Length];
-        //    for (int i = 0; i < arrOne.Length; i++)
-        //    {
+            //    int[] arrOne = { 1, 10, 4, 2 };
+            //    int[] arrTwo = { 3, 7, 5, 6 };
+            //    int[] marged = new int[arrOne.Length + arrTwo.Length];
+            //    for (int i = 0; i < arrOne.Length; i++)
+            //    {
 
-        //        marged[i] = arrOne[i];
+            //        marged[i] = arrOne[i];
 
-        //    }
-        //    for (int i = 0; i < arrTwo.Length; i++)
-        //    {
+            //    }
+            //    for (int i = 0; i < arrTwo.Length; i++)
+            //    {
 
-        //        marged[arrOne.Length + i] = arrTwo[i];
+            //        marged[arrOne.Length + i] = arrTwo[i];
 
-        //    }
+            //    }
 
-        //    Console.WriteLine("Marged Array");
-        //    for (int i = 0; i < marged.Length; i++) { 
-        //    Array.Sort(marged);
-        //    Console.Write(marged[i] + "  ");
-        //}
+            //    Console.WriteLine("Marged Array");
+            //    for (int i = 0; i < marged.Length; i++) { 
+            //    Array.Sort(marged);
+            //    Console.Write(marged[i] + "  ");
+            //}
+
+            #endregion
+            #region -22 count the frequency of each element of  an array.
+            //int[] arr = { 1, 2, 3, 4, 5, 6, 6, 7, 4, 3, 5, 7, 9, 7 };
+            //int count;
+
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+
+            //    bool alreadyPrinted = false;
+            //    for (int k = 0; k < i; k++)
+            //    {
+            //        if (arr[k] == arr[i])
+            //        {
+            //            alreadyPrinted = true;
+            //            break;
+            //        }
+            //    }
+
+            //    if (alreadyPrinted)
+            //        continue;
+
+
+            //    count = 0;
+            //    for (int j = 0; j < arr.Length; j++)
+            //    {
+            //        if (arr[j] == arr[i])
+            //            count++;
+            //    }
+
+            //    Console.WriteLine($"{arr[i]} frequency = {count}");
+            //}
+
+
+
 
             #endregion
 
