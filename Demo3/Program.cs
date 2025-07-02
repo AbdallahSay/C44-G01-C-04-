@@ -566,6 +566,18 @@ namespace Demo3
 
 
             #endregion
+            #region 26-Given a list of space separated words, reverse the order of the words
+            //Console.WriteLine("Enter a sentence:");
+            //string sentence = Console.ReadLine();
+
+            //string[] words = sentence.Split(' ', StringSplitOptions.RemoveEmptyEntries);
+            //Array.Reverse(words);
+
+            //string result = string.Join(" ", words); 
+
+            //Console.WriteLine(result);
+
+            #endregion
         }
     }
 }
