@@ -1,5 +1,6 @@
 ﻿using System;
 using System.ComponentModel;
+using System.Globalization;
 using System.Numerics;
 using System.Reflection.Metadata;
 using System.Security.Cryptography;
@@ -404,7 +405,31 @@ namespace Demo3
             //for (int i = 0; i < arr.Length; i++)
             //    sumOfArr += arr[i];
             //Console.WriteLine($"Sum Of Array = {sumOfArr}");
-       
+
+
+            #endregion
+            #region 21- merge two arrays of the same size sorted in ascending order.
+        //    int[] arrOne = { 1, 10, 4, 2 };
+        //    int[] arrTwo = { 3, 7, 5, 6 };
+        //    int[] marged = new int[arrOne.Length + arrTwo.Length];
+        //    for (int i = 0; i < arrOne.Length; i++)
+        //    {
+
+        //        marged[i] = arrOne[i];
+
+        //    }
+        //    for (int i = 0; i < arrTwo.Length; i++)
+        //    {
+
+        //        marged[arrOne.Length + i] = arrTwo[i];
+
+        //    }
+
+        //    Console.WriteLine("Marged Array");
+        //    for (int i = 0; i < marged.Length; i++) { 
+        //    Array.Sort(marged);
+        //    Console.Write(marged[i] + "  ");
+        //}
 
             #endregion
 
