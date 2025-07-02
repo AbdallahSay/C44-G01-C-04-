@@ -467,7 +467,26 @@ namespace Demo3
 
 
             #endregion
+            #region 23- find maximum and minimum element in an  array
+            //int[] arr = { 1, 2, 3, 4, 5, 6, 6, 7, 4, 3, 5, 7, 9, 7 };
+            //int max = arr[0];
+            //int min = arr[0];
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    if (arr[i] > max)
+            //        max = arr[i] ;
 
+            //    if (arr[i] < min)
+            //        min = arr[i];
+
+
+            //}
+            //Console.WriteLine($"Max = {max}");
+            //Console.WriteLine($"Min = {min}");
+
+
+
+            #endregion
         }
     }
 }
