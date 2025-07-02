@@ -692,6 +692,17 @@ namespace Demo3
 
 
             #endregion
+            #region 30-
+            /* n= 1 , Z= 5
+              if هتدخل في 
+            ++N == 2 + Z++ --> = 5 --> 2+5 =7
+            Z = 6
+            ++z = 7 
+            output 77
+            
+             
+             */
+            #endregion
         }
     }
 }
