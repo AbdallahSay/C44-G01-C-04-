@@ -674,6 +674,24 @@ namespace Demo3
             //}
 
             #endregion
+            #region 29-uses the ternary operator
+            //Console.Write("Enter temperature: ");
+            //bool flag = int.TryParse(Console.ReadLine(), out int temp);
+
+            //if (flag)
+            //{
+            //    string result = temp < 10 ? "Just Cold" :
+            //                    temp > 30 ? "Just Hot" : "Just Good";
+
+            //    Console.WriteLine(result);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Invalid input. Please enter a number.");
+            //}
+
+
+            #endregion
         }
     }
 }
