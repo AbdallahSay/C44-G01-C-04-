@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel;
 using System.Globalization;
 using System.Numerics;
@@ -6,6 +7,7 @@ using System.Reflection.Metadata;
 using System.Security.Cryptography;
 using System.Threading.Tasks;
 using System.Xml.Linq;
+using static System.Formats.Asn1.AsnWriter;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Demo3
@@ -576,6 +578,62 @@ namespace Demo3
             //string result = string.Join(" ", words); 
 
             //Console.WriteLine(result);
+
+            #endregion
+            #region 27-- Write a program to create two multidimensional arrays of same size.    Accept value from user and store them in first array. Now copy all the  elements of first array on second array and print second array.
+            int rows, cols;
+            Console.Write("Enter number of rows: ");
+            bool flagRows = int.TryParse(Console.ReadLine(), out rows);
+
+            Console.Write("Enter number of columns: ");
+            bool flagCols = int.TryParse(Console.ReadLine(), out cols);
+
+            if (flagRows && flagCols && rows > 0 && cols > 0)
+            {
+                int[,] firstArray = new int[rows, cols];
+                int[,] secondArray = new int[rows, cols];
+
+                for (int i = 0; i < rows; i++)
+                {
+                    for (int j = 0; j < cols; j++)
+                    {
+                        Console.Write($"Enter element [{i}, {j}]: ");
+                        bool flagElement = int.TryParse(Console.ReadLine(), out int value);
+
+                        if (flagElement)
+                        {
+                            firstArray[i, j] = value;
+                        }
+                        else
+                        {
+                            Console.WriteLine("Invalid input. Try again.");
+                            j--; // يرجع يطلب نفس العنصر
+                        }
+                    }
+                }
+
+                for (int i = 0; i < rows; i++)
+                {
+                    for (int j = 0; j < cols; j++)
+                    {
+                        secondArray[i, j] = firstArray[i, j];
+                    }
+                }
+
+                Console.WriteLine("\nCopied Second Array:");
+                for (int i = 0; i < rows; i++)
+                {
+                    for (int j = 0; j < cols; j++)
+                    {
+                        Console.Write(secondArray[i, j] + "\t");
+                    }
+                    Console.WriteLine();
+                }
+            }
+            else
+            {
+                Console.WriteLine("Invalid size. Please enter positive numbers only.");
+            }
 
             #endregion
         }
