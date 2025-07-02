@@ -3,6 +3,7 @@ using System.ComponentModel;
 using System.Numerics;
 using System.Reflection.Metadata;
 using System.Security.Cryptography;
+using System.Threading.Tasks;
 using System.Xml.Linq;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
@@ -272,34 +273,34 @@ namespace Demo3
 
             #endregion
             #region 15- Write a program in C# Sharp to find prime numbers within a range of  numbers.
-        //    Console.Write("Enter starting number of range: ");
-        //    int start = int.Parse(Console.ReadLine());
+            //    Console.Write("Enter starting number of range: ");
+            //    int start = int.Parse(Console.ReadLine());
 
-        //    Console.Write("Enter ending number of range: ");
-        //    int end = int.Parse(Console.ReadLine());
+            //    Console.Write("Enter ending number of range: ");
+            //    int end = int.Parse(Console.ReadLine());
 
-        //    Console.WriteLine("Prime numbers between {0} and {1} are:", start, end);
-        //    for (number = start; number <= end; number++)
-        //    {
-        //        if (IsPrime(number))
-        //        {
-        //            Console.Write(number + " ");
-        //        }
-        //    }
-        //}
+            //    Console.WriteLine("Prime numbers between {0} and {1} are:", start, end);
+            //    for (number = start; number <= end; number++)
+            //    {
+            //        if (IsPrime(number))
+            //        {
+            //            Console.Write(number + " ");
+            //        }
+            //    }
+            //}
 
-        //static bool IsPrime(int num)
-        //{
-        //    if (num <= 1)
-        //        return false;
+            //static bool IsPrime(int num)
+            //{
+            //    if (num <= 1)
+            //        return false;
 
-        //    for (int i = 2; i <= Math.Sqrt(num); i++)
-        //    {
-        //        if (num % i == 0)
-        //            return false;
-        //    }
+            //    for (int i = 2; i <= Math.Sqrt(num); i++)
+            //    {
+            //        if (num % i == 0)
+            //            return false;
+            //    }
 
-        //    return true;
+            //    return true;
 
 
             #endregion
@@ -334,25 +335,68 @@ namespace Demo3
             //}
             #endregion
             #region 17- Create a program that asks the user to input three points (x1, y1), (x2, y2), and(x3, y3), and determines whether these points lie on a  single straight line.
-            Console.WriteLine("please enter point 1 x , y");
-            bool isParsedX1 = double.TryParse(Console.ReadLine(), out double x1);
-            bool isParsedY1 = double.TryParse(Console.ReadLine(), out double y1);
-            Console.WriteLine("please enter point 2 x , y");
-            bool isParsedX2 = double.TryParse(Console.ReadLine(), out double x2);
-            bool isParsedY2 = double.TryParse(Console.ReadLine(), out double y2);
-            Console.WriteLine("please enter point 1 x , y");
-            bool isParsedX3 = double.TryParse(Console.ReadLine(), out double x3);
-            bool isParsedY3 = double.TryParse(Console.ReadLine(), out double y3);
-            bool onSamePoint = (y2 - y1) * (x3 - x2) == (y3 - y2) * (x2 - x1);
+            //Console.WriteLine("please enter point 1 x , y");
+            //bool isParsedX1 = double.TryParse(Console.ReadLine(), out double x1);
+            //bool isParsedY1 = double.TryParse(Console.ReadLine(), out double y1);
+            //Console.WriteLine("please enter point 2 x , y");
+            //bool isParsedX2 = double.TryParse(Console.ReadLine(), out double x2);
+            //bool isParsedY2 = double.TryParse(Console.ReadLine(), out double y2);
+            //Console.WriteLine("please enter point 1 x , y");
+            //bool isParsedX3 = double.TryParse(Console.ReadLine(), out double x3);
+            //bool isParsedY3 = double.TryParse(Console.ReadLine(), out double y3);
+            //bool onSamePoint = (y2 - y1) * (x3 - x2) == (y3 - y2) * (x2 - x1);
 
-            if(onSamePoint)
-                Console.WriteLine("The points lie on a single straight line.");
-            else
-                Console.WriteLine("The points do NOT lie on the same straight line.");
-
-
+            //if(onSamePoint)
+            //    Console.WriteLine("The points lie on a single straight line.");
+            //else
+            //    Console.WriteLine("The points do NOT lie on the same straight line.");
 
 
+
+
+            #endregion
+            #region 18- Within a company, the efficiency of workers is evaluated based on the duration required to complete a specific task.A worker's efficiency level is determined as follows: 
+
+            //Console.WriteLine("Please enter your rate from Hours1");
+            //bool isParsed1 = int.TryParse(Console.ReadLine(), out int houre1);
+            //Console.WriteLine("Please enter your rate to Hours2");
+            //bool isParsed2 = int.TryParse(Console.ReadLine(), out int houre2);
+
+            //if(isParsed1 && isParsed2)
+            //{
+            //    if(houre1 == 2 || houre2 == 3)
+            //        Console.WriteLine("highly efficient.");
+            //    else if (houre1 == 3 || houre2 == 4 )
+            //        Console.WriteLine(" they are instructed to increase their speed.");
+            //    else if (houre1 == 4 || houre2 == 5 )
+            //        Console.WriteLine(" they are provided with training to \r\nenhance their speed. ");
+            //    else if (houre1 == 6 || houre2 >= 6)
+            //        Console.WriteLine(" they are required to leave the \r\ncompany. ");
+
+            //}
+
+            #endregion
+            #region 19-  Write a program that prints an identity matrix using for loop
+            //Console.WriteLine("please enter Intager Value n");
+            //bool isParsed = int.TryParse(Console.ReadLine(), out int matrix);
+            //Console.Clear();
+            //if (isParsed) 
+            //{
+            //    for (int i = 0;  i < matrix; i++)
+            //    {
+            //        for(int j = 0; j < matrix; j++)
+            //        {
+            //            if(j == i )
+            //                Console.Write("1");
+            //            else
+            //                Console.Write("0");
+            //        }
+            //        Console.WriteLine();
+            //    }
+                
+            //}
+            //else
+            //    Console.WriteLine("Invalid integer number ");
             #endregion
 
         }
