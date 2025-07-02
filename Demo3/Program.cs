@@ -510,6 +510,62 @@ namespace Demo3
             //Console.WriteLine("Second Largest = " + secondMax);
 
             #endregion
+            #region 25- find the longest distance between Two equal cells
+            //Console.WriteLine("Enter array size");
+            //bool isParsed = int.TryParse(Console.ReadLine(), out int arr);
+
+            //if (isParsed && arr > 0)
+            //{
+            //    int[] numbers = new int[arr];
+            //    for (int i = 0; i < arr; i++)
+            //    {
+            //        Console.WriteLine($"Enter array element {i + 1}:");
+            //        bool flagElement = int.TryParse(Console.ReadLine(), out int element);
+            //        if (flagElement)
+            //            numbers[i] = element;
+            //        else
+            //        {
+            //            Console.WriteLine("Invalid number");
+            //            i--; 
+            //        }
+            //    }
+
+            //    Console.Clear();
+            //    for (int j = 0; j < numbers.Length; j++)
+            //    {
+            //        Console.Write(numbers[j] + "  ");
+            //    }
+
+            //    Console.WriteLine();
+            //    int maxDistance = 0;
+            //    int repeatedNumber = 0;
+
+            //    for (int i = 0; i < arr; i++)
+            //    {
+            //        for (int j = arr - 1; j > i; j--)
+            //        {
+            //            if (numbers[j] == numbers[i])
+            //            {
+            //                int distance = j - i - 1;
+            //                if (distance > maxDistance)
+            //                {
+            //                    maxDistance = distance;
+            //                    repeatedNumber = numbers[i]; 
+            //                }
+            //                break;
+            //            }
+            //        }
+            //    }
+
+            //    Console.WriteLine($"\nThe longest distance is: {maxDistance}, between number: {repeatedNumber}");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Invalid array size.");
+            //}
+
+
+            #endregion
         }
     }
 }
