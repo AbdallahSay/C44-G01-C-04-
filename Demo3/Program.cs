@@ -581,59 +581,97 @@ namespace Demo3
 
             #endregion
             #region 27-- Write a program to create two multidimensional arrays of same size.    Accept value from user and store them in first array. Now copy all the  elements of first array on second array and print second array.
-            int rows, cols;
-            Console.Write("Enter number of rows: ");
-            bool flagRows = int.TryParse(Console.ReadLine(), out rows);
+            //int rows, cols;
+            //Console.Write("Enter number of rows: ");
+            //bool flagRows = int.TryParse(Console.ReadLine(), out rows);
 
-            Console.Write("Enter number of columns: ");
-            bool flagCols = int.TryParse(Console.ReadLine(), out cols);
+            //Console.Write("Enter number of columns: ");
+            //bool flagCols = int.TryParse(Console.ReadLine(), out cols);
 
-            if (flagRows && flagCols && rows > 0 && cols > 0)
-            {
-                int[,] firstArray = new int[rows, cols];
-                int[,] secondArray = new int[rows, cols];
+            //if (flagRows && flagCols && rows > 0 && cols > 0)
+            //{
+            //    int[,] firstArray = new int[rows, cols];
+            //    int[,] secondArray = new int[rows, cols];
 
-                for (int i = 0; i < rows; i++)
-                {
-                    for (int j = 0; j < cols; j++)
-                    {
-                        Console.Write($"Enter element [{i}, {j}]: ");
-                        bool flagElement = int.TryParse(Console.ReadLine(), out int value);
+            //    for (int i = 0; i < rows; i++)
+            //    {
+            //        for (int j = 0; j < cols; j++)
+            //        {
+            //            Console.Write($"Enter element [{i}, {j}]: ");
+            //            bool flagElement = int.TryParse(Console.ReadLine(), out int value);
 
-                        if (flagElement)
-                        {
-                            firstArray[i, j] = value;
-                        }
-                        else
-                        {
-                            Console.WriteLine("Invalid input. Try again.");
-                            j--; // يرجع يطلب نفس العنصر
-                        }
-                    }
-                }
+            //            if (flagElement)
+            //            {
+            //                firstArray[i, j] = value;
+            //            }
+            //            else
+            //            {
+            //                Console.WriteLine("Invalid input. Try again.");
+            //                j--; 
+            //            }
+            //        }
+            //    }
 
-                for (int i = 0; i < rows; i++)
-                {
-                    for (int j = 0; j < cols; j++)
-                    {
-                        secondArray[i, j] = firstArray[i, j];
-                    }
-                }
+            //    for (int i = 0; i < rows; i++)
+            //    {
+            //        for (int j = 0; j < cols; j++)
+            //        {
+            //            secondArray[i, j] = firstArray[i, j];
+            //        }
+            //    }
 
-                Console.WriteLine("\nCopied Second Array:");
-                for (int i = 0; i < rows; i++)
-                {
-                    for (int j = 0; j < cols; j++)
-                    {
-                        Console.Write(secondArray[i, j] + "\t");
-                    }
-                    Console.WriteLine();
-                }
-            }
-            else
-            {
-                Console.WriteLine("Invalid size. Please enter positive numbers only.");
-            }
+            //    Console.WriteLine("\nCopied Second Array:");
+            //    for (int i = 0; i < rows; i++)
+            //    {
+            //        for (int j = 0; j < cols; j++)
+            //        {
+            //            Console.Write(secondArray[i, j] + "\t");
+            //        }
+            //        Console.WriteLine();
+            //    }
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Invalid size. Please enter positive numbers only.");
+            //}
+
+            #endregion
+            #region 28-Write a Program to Print One Dimensional Array in Reverse Order
+            //Console.Write("Enter array size: ");
+            //bool flag = int.TryParse(Console.ReadLine(), out int size);
+
+            //if (flag && size > 0)
+            //{
+            //    int[] numbers = new int[size];
+
+            //    for (int i = 0; i < size; i++)
+            //    {
+            //        Console.Write($"Enter element {i + 1}: ");
+            //        bool elementFlag = int.TryParse(Console.ReadLine(), out int element);
+
+            //        if (elementFlag)
+            //        {
+            //            numbers[i] = element;
+            //        }
+            //        else
+            //        {
+            //            Console.WriteLine("Invalid input. Try again.");
+            //            i--; 
+            //        }
+            //    }
+
+            //    Console.Clear();
+
+            //    Console.WriteLine("Array in reverse order:");
+            //    for (int i = size - 1; i >= 0; i--)
+            //    {
+            //        Console.Write(numbers[i] + "  ");
+            //    }
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Invalid array size.");
+            //}
 
             #endregion
         }
